@@ -16,7 +16,7 @@ function addItem()
       var dollars;
       dollars = asCurrency(runningTotal);
       document.getElementById("price").value="";
-      setCookie("pretax", runningTotal, 100);
+      setCookie("pretax", runningTotal, 10);
    }
 
    document.getElementById("subtotal").innerHTML = dollars;
